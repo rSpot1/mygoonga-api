@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+storage/
+secrets/
+.venv/
+venv/
+*.egg-info/
+.DS_Store
+my-goonga-firebase-adminsdk-*.json
