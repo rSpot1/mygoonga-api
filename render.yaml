@@ -11,13 +11,17 @@ services:
       - key: DEBUG_MODE
         value: "false"
       - key: USE_MOCK_DB
-        value: "true"
+        value: "false"
       - key: STORAGE_MODE
         value: local
       - key: LOCAL_STORAGE_DIR
         value: ./storage
       - key: CORS_ORIGINS
         value: "*"
+      - key: FIREBASE_CREDENTIALS_JSON
+        sync: false
+      - key: FIREBASE_PROJECT_ID
+        sync: false
       - key: HUGGINGFACE_API_TOKEN
         sync: false
       - key: GEMINI_API_KEY
